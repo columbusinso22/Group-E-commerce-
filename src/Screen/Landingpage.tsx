@@ -9,8 +9,8 @@ const Landingpage = () => {
   return (
     <div>
       <Header />
-      <Serve />
       <Service />
+      <Serve />
       <Testimonial />
       <Footer />
     </div>
