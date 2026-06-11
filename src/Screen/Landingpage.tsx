@@ -4,6 +4,7 @@ import Service from "../Componets/Service Section/Service";
 import Testimonial from "../Componets/Testimonial/Testimonial";
 import Footer from "../Componets/Footer & Contact us/Footer";
 import Serve from "../Componets/Serve Section/Serve";
+import Brand from "../Componets/Brands Section/Brand";
 
 const Landingpage = () => {
   return (
@@ -12,6 +13,7 @@ const Landingpage = () => {
       <Service />
       <Serve />
       <Testimonial />
+      <Brand />
       <Footer />
     </div>
   );
