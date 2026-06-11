@@ -1,4 +1,9 @@
 import "./Brand.css";
+import logogodrej from "../../assets/logo-godrej.png";
+import logooppo from "../../assets/logo-oppo.png";
+import logococacola from "../../assets/logo-coca-cola.png";
+import logopaypal from "../../assets/logo-paypal.png";
+import logophilips from "../../assets/logo-philips.png";
 
 const Brand = () => {
   return (
@@ -7,19 +12,19 @@ const Brand = () => {
         <div className="small-container">
           <div className="row">
             <div className="col-5">
-              <img src="/src/assets/logo-godrej.png" alt="Godrej Logo" />
+              <img src={logogodrej} />
             </div>
             <div className="col-5">
-              <img src="/src/assets/logo-oppo.png" alt="Oppo Logo" />
+              <img src={logooppo} />
             </div>
             <div className="col-5">
-              <img src="/src/assets/logo-coca-cola.png" alt="Coca Cola Logo" />
+              <img src={logococacola} />
             </div>
             <div className="col-5">
-              <img src="/src/assets/logo-paypal.png" alt="Paypal Logo" />
+              <img src={logopaypal} />
             </div>
             <div className="col-5">
-              <img src="/src/assets/logo-philips.png" alt="Philips Logo" />
+              <img src={logophilips} />
             </div>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import "./Footer.css";
-
+import playstore from "../../assets/play-store.png";
+import appstore from "../../assets/app-store.png";
+import logowhite from "../../assets/logo-white.png";
 const Footer = () => {
   return (
     <div>
@@ -10,12 +12,12 @@ const Footer = () => {
               <h3>Download Our App</h3>
               <p>Download App for Android and ios mobile phone.</p>
               <div className="app-logo">
-                <img src="/src/assets/play-store.png" />
-                <img src="/src/assets/app-store.png" />
+                <img src={playstore} />
+                <img src={appstore} />
               </div>
             </div>
             <div className="footer-col-2">
-              <img src="/src/assets/logo-white.png" />
+              <img src={logowhite} />
               <p>
                 Our Purpose Is To Sustainably Make The Pleasure and Benefits of
                 Sports Accessible to the many.
